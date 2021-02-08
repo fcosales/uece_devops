@@ -1,11 +1,18 @@
-# Rotina: Configuração do Azure Provider.
+# Rotina: Configuração do Azure Provider x Terraform x Visual Studio Code 
 # Autor: Francisco Sampaio
 # Data: 05/02/2021
 # Cliente: Disciplina do curso de Pós-Graduação da UECE.
 # Interface: VCS com extensões do Terraform e Terraform Databases.
 # Orientações: Professor Carlos Mendes e colegas de turma.
 # Configura o Azure Provider.
-
+#
+# Observacoes:
+#
+# 1. Os recursos disponibilizados neste arquivo, seguem orientações do GUIDE AZURE CONFIGURATION.
+# 2. Temos vários recursos a)O PROVIDER, b)A Virtua network, c) A Subnet, d). o grupo de segurança, entre outros.
+# 3. Estes recursos devem ser disponibilizados de acordo com a Estrutura que se queira cria, devendo seguir as orientaçes de configurações.
+# 4. Utilizando o TERRAFORM via Visual Studio Code no ambiente Linux / Ubuntu, pode-se configurar o AZURE PROVIDER.
+#
 provider "azurerm" {
     # The "feature" block is required for AzureRM provider 2.x.
     # If you're using version 1.x, the "features" block is not allowed.
